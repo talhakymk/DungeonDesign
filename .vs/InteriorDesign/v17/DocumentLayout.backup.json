@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\talha\\Desktop\\Unity\\Projects\\InteriorDesign\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92A48807-F0C2-AE47-B85A-A8D9A12FEE1C}|Assembly-CSharp.csproj|c:\\users\\talha\\desktop\\unity\\projects\\interiordesign\\assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{92A48807-F0C2-AE47-B85A-A8D9A12FEE1C}|Assembly-CSharp.csproj|c:\\users\\talha\\desktop\\unity\\projects\\interiordesign\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92A48807-F0C2-AE47-B85A-A8D9A12FEE1C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92A48807-F0C2-AE47-B85A-A8D9A12FEE1C}|Assembly-CSharp.csproj|C:\\Users\\talha\\Desktop\\Unity\\Projects\\InteriorDesign\\assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92A48807-F0C2-AE47-B85A-A8D9A12FEE1C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,15 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Unity\\Projects\\InteriorDesign\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\talha\\Desktop\\Unity\\Projects\\InteriorDesign\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T09:44:31.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Movement.cs",
               "DocumentMoniker": "C:\\Users\\talha\\Desktop\\Unity\\Projects\\InteriorDesign\\Assets\\Scripts\\Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Movement.cs",
               "ToolTip": "C:\\Users\\talha\\Desktop\\Unity\\Projects\\InteriorDesign\\Assets\\Scripts\\Movement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Movement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T09:43:09.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T09:43:09.668Z"
             }
           ]
         }

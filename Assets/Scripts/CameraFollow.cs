@@ -8,16 +8,22 @@ public class CameraFollow : MonoBehaviour
     public Vector3 offset = new Vector3(0, 2, -3); // Kameranýn konumu
     public float rotationSpeed = 5f;
 
-    private float currentAngle = 0f;
+    private float currentXAngle = 0f;
+    private float currentYAngle = 0f;
+
 
     void LateUpdate()
     {
         // Mouse X hareketi al
-        float horizontalInput = Input.GetAxis("Mouse X");
-        currentAngle += horizontalInput * rotationSpeed;
+        float horizontalXInput = Input.GetAxis("Mouse X");
+        currentXAngle += horizontalXInput * rotationSpeed;
+
+        float horizontalYInput = Input.GetAxis("Mouse Y");
+        currentYAngle += horizontalYInput * rotationSpeed;
+
 
         // Dönüþ açýsýný hesapla
-        Quaternion rotation = Quaternion.Euler(0f, currentAngle, 0f);
+        Quaternion rotation = Quaternion.Euler(0f, currentXAngle, currentYAngle);
         Vector3 desiredPosition = target.position + rotation * offset;
 
         // Kamerayý yeni pozisyona yerleþtir
